@@ -1,0 +1,32 @@
+body {
+	background-color: rgba(200, 200, 200, 0.3);}
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h4 {
+	padding-top: 18px;
+}
+
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 100%;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
