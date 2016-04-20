@@ -1,5 +1,4 @@
 			<footer class="site-footer">
-				<center><p>Designed and developted by me</p></center>
 				<p class="pull-right">
 					<a href="#">top</a>
 				</p>
@@ -10,6 +9,7 @@
 						<a  href="#">Github</a>
 					</small>
 				</p>
+				<center><p>Designed and developted by <br>Thijs van Diessen</p></center>
 			</footer>
 		</div>
 		<!-- /#page-content-wrapper -->
