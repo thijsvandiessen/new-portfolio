@@ -5,6 +5,8 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<!-- TODO title based on current page -->
+
 		<title>Portfolio - Work of Thijs van Diessen - UX Designer</title>
 
 		<meta name="description" content="I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.">
@@ -17,3 +19,6 @@
 		
 		<link href="my.css" rel="stylesheet">
 </head>
+
+<body>
+	<div id="wrapper">
