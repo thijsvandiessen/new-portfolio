@@ -1,45 +1,46 @@
 <?php
 	require('include/header.php');
-	require('include/nav.php');
 
 	//page content
 ?>
+
+
+
 <div class="row">
 	<div class="col-lg-12">
-		<div class="jumbotron">
-			<h1>Project 5</h1>
-			<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+		<div class="title">
+			<h1>Mashup <br><small>Instagram and Google maps</small></h1>
 		</div>
 	</div>
 </div>
+
+<hr>
 
 <div class="row">
 	<div class="col-lg-12 textrow">
 		<a href="#"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
 		<div class="page-header">
-			<h1>Example Page Header</h1>
+			<h1>Where are the populair Instagram pictures taken?</h1>
 		</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>For a school assignment I combined two API's (Application Programming Interface's) to lean a bit more about Javascript and jQuery and the endless possibilities of web development.</p>
+
+		<p>The first step was to find two open API's that I could use. Twitter was an easy choice, but not very meaningful. Facebooks API was very closed, so difficult to make a mashup of. But then I found the Instagram API. There were lots of ways to get data from Instagram with a simple JSON request. Not all data was complete, for example not everyone is allowing Instagram to retrieve their GPS position, but it was good enough. I also found that Instagram had an algorithm that knows the most populair photos posted on Instagram. Connecting this to a twitter feed wouldn’t be very useful, but knowing where those photos where taken would maybe be very interesting for a travel agency. Therefore I decided to connect it with the API of Google Maps.</p>
+
+		<p>The Google Maps API is very simple; you give it a location, and it wil pinpoint it on a map of your choice. Filtering out the photos without a GPS location from the instagram data so that only the photos with a GPS location were used in the final mashup was a challenge, but in the end it worked.</p>
+
+		<p>The final product is not pretty, but that was not the assignment. It shows the Instagram picture and name of the populair photo together with a location, and with the Google Maps API you can see where the photo was taken. I learned that the popular photos were mostly taken by popular people of not so interesting things, but all over the world.</p>
+
+		<p>For me, this was a fun example of how I can fix problems using programming. Although I know Javascript and PHP and I like programming, I am not a programmer. Instead I like to use this knowledge to design and invent new experiences. Programming is fun, and I’m sure I’ll further develop my skills in the future.</p>
 
 		<a href="#"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
 
-		<h1>Blockquotes</h1>
-		<p>The blockquote element is used to present content from another source:</p>
-		<blockquote>
-			<p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported1.2 million members in the United States and close to 5 million globally.</p>
-		<footer>From WWF's website</footer>
-		</blockquote>
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-xs-2  col-xs-offset-10">
-		<a href="project1.php"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
+		<a href="project1.php"><img class="img-fluid" src="img/arrow.svg" alt="Next"></a>
 	</div>
 </div>
 

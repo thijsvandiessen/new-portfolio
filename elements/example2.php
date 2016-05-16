@@ -30,3 +30,12 @@
 		<a href="#"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
 	</div>
 <hr>
+
+
+<div class="row full-images">
+	<div class="col-lg-12">
+		<a href="project1.php"><img class="img-fluid" src="img/poster.jpg" alt="Poster Noord Hollands Jeugd Orkest, program march 2015"></a>
+		<a href="project2.php"><img class="img-fluid" src="img/bitcare.jpg" alt="Mockup bitcare for parents ios application"></a>
+		<a href="project3.php"><img class="img-fluid" src="img/letters.jpg" alt="Project 3"></a>
+	</div>
+</div>

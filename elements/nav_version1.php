@@ -1,3 +1,16 @@
+<?php
+$pages = array(
+    "index.php" => "Featured projects",
+    "profile.php" => "Get to know me",
+    "writing.php" => "My writing",
+    "contact.php" => "Let's talk",
+);
+
+$currentPage = basename($_SERVER['REQUEST_URI']) ;
+
+?>
+
+
 <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
     	<li class="sidebar-brand">

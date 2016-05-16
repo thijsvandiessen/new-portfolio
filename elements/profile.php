@@ -1,9 +1,14 @@
 <?php
 	require('include/header.php');
-	require('include/nav.php');
 
 	//page content
 ?>
+
+<div class="row full-images">
+	<div class="col-lg-12">
+		<img class="img-fluid" src="img/featured_me.png" alt="My profile picture">
+	</div>
+</div>
 
 <div class="row">
 	<div class="col-lg-12">
@@ -20,12 +25,9 @@
 		<div class="page-header">
 			<h1>Example Page Header</h1>
 		</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Graag steek ik mijn volle energie in projecten en activiteiten. Ik speelde bijvoorbeeld naast mijn studie in twee orkesten contrabas (in het Noord-Hollands Jeugd Orkest en in het Delftse Studentenorkest Krashna Musika). Bij deze verenigingen was ik ook actief bezig met promotie en drukwerk.</p>
+		<p>Door mijn associatieve manier van denken ben ik snel in het ontwikkelen van ideeën en het zoeken naar oplossingen. Mijn interesses zijn breed en variëren van concept ontwikkeling, grafisch ontwerp tot development. Typografie en “pixel perfect” zijn is een grote fascinatie van mij. Ook vind ik het leuk om design research uit te voeren, doelgroepen te ondervragen en naar mensen toe gaan om zelf te ontdekken wat er ontworpen moet worden.</p>
 
 		<a href="#"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
 

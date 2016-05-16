@@ -1,27 +1,13 @@
-<?php
-$pages = array(
-    'index.php' => 'Featured',
-    'projects.php' => 'Projects',
-    'profile.php' => 'Profile',
-    'writing.php' => 'Writing',
-    'contact.php' => 'Contact',
-);
-
-$currentPage = basename($_SERVER['REQUEST_URI']) ;
-
-?>
-
-
 <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <li class="sidebar-brand">
-            <h3>Portfolio</h3>
+            <a href="index.php"><h3>Portfolio<h3></a>
         </li>
-        <?php foreach ($pages as $filename => $pageTitle) { 
+        <?php foreach ($pages as $filename => $pageName) { 
             if ($filename == $currentPage) { ?>
-        <li><?php echo $pageTitle ; ?></li>
+        <li class="active"><?php echo $pageName ; ?></li>
             <?php } else { ?>
-        <li><a href="<?php echo $filename ; ?>"><?php echo $pageTitle ; ?></a></li>
+        <li><a href="<?php echo $filename ; ?>"><?php echo $pageName ; ?></a></li>
             <?php
             } 
          } 
@@ -31,5 +17,5 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
 
 	<!-- Page Content -->
 	<div id="page-content-wrapper">
-		<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
+		<a href="#menu-toggle" class="btn" id="menu-toggle">menu<!-- <img src="img/hamburger.svg"> --></a>
 		<div class="container-fluid">

@@ -1,7 +1,15 @@
 body {
-	background-color: rgba(200, 200, 200, 0.0);
+	background-color: rgba(200, 200, 200, 0.2);
     font-size: 16px;
     line-height: 1.8;
+    font-family: avenir;
+    font-weight: 100;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Gill Sans;
+    font-weight: 100;
 }
 
 hr {
@@ -25,7 +33,7 @@ hr {
 .img-fluid {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .container-fluid {
@@ -34,9 +42,10 @@ hr {
     max-width: 1200px;
 }
 
-.full-images .col-lg-12 {
+.full-images {
     padding: 0px;
 }
+
 
 #menu-toggle {
     position: fixed;
@@ -65,7 +74,8 @@ hr {
     height: 100%;
     margin-left: -200px;
     overflow-y: auto;
-    background: #000;
+    /*Background collor menu*/
+    background: rgba(0,0,0, 0.9);
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -88,6 +98,11 @@ hr {
 }
 
 /* Sidebar Styles */
+
+.sidebar-brand h3{
+    color: rgb(240,240,240);
+}
+
 
 .sidebar-nav {
     position: absolute;
@@ -135,23 +150,106 @@ hr {
     background: none;
 }
 
-.jumbotron {
-    margin-top: 10px;
+.sidebar-nav .active {
+    color: rgb(255,255,255);
 }
 
-.footer {
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 
-
+    color: black;
 }
 
+.btn:hover {
+    color: #999999;
+}
+ 
+.btn:active, .btn.active {
+    box-shadow: none;
+}
+
+/* unvisited link */
+.btn:link:visited:hover:active, .btn.active {
+    background-color: rgb(255,255,255);
+    box-shadow: none;
+}
+
+.site-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 0.5;
+}
+
+.site-footer:hover {
+    opacity: 1;
+}
+
+/* cover */
+
+.cover {
+    background-image: url(img/white.png);
+}
+
+.cover h1 {
+    text-align: center;
+}
+
+/* imagebox */
+
+.imagebox {
+    margin-top: 20px;
+}
+
+.imagebox .col-sm-6, .col-lg-4 {
+    padding: 0;
+}
+
+.imagebox img{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+/*.col-sm-6 {
+    padding: 0px;
+}
+
+.col-lg-4 {
+    padding: 0px;
+}
+
+img {
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}*/
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
+    .cover {
+        height: 300px;
+    }
     
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .cover {
+        height: 400px;
+    }
+
+    .cover h1{
+        margin-top: 190px;
+    }
 
 }
 
@@ -182,6 +280,18 @@ hr {
         margin-right: 0;
     }
 
+    .title h1 {
+        font-size: 60px;
+    }
+
+    .cover {
+        height: 500px;
+    }
+
+    .cover h1{
+        margin-top: 230px;
+    }
+
 }
 
 /* Medium Devices, Desktops */
@@ -190,9 +300,32 @@ hr {
         padding-left: 0px;
     }
 
+    .title h1 {
+        font-size: 80px;
+    }
+
+    .cover {
+        height: 600px;
+    }
+
+    .cover h1{
+        margin-top: 280px;
+    }
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+    .title h1 {
+        font-size: 100px;
+    }
+    .cover {
+        height: 700px;
+    }
+
+    .cover h1{
+        margin-top: 330px;
+    }
 
 }

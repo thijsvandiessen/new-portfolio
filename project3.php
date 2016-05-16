@@ -1,45 +1,48 @@
 <?php
 	require('include/header.php');
-	require('include/nav.php');
 
 	//page content
 ?>
+
 <div class="row">
 	<div class="col-lg-12">
-		<div class="jumbotron">
-			<h1>Project 3</h1>
-			<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+		<div class="title">
+			<h1>Identity</h1>
 		</div>
 	</div>
 </div>
 
+<hr>
+
 <div class="row">
 	<div class="col-lg-12 textrow">
-		<a href="#"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
+		<a href="http://www.bijendagboek.nl" target="_blank"><img class="img-fluid" src="img/featured_bijendagboek" alt="bijendagboek.nl screenshot homepage"></a>
 		<div class="page-header">
-			<h1>Example Page Header</h1>
+			<h1>Simple blog</h1>
 		</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		<a href="#"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
+		<p>To gain some experience in Wordpress, I created a simple blog for my mother. With this site she can share her observations as a beekeeper with her students and other interested beekeepers.</p>
 
-		<h1>Blockquotes</h1>
-		<p>The blockquote element is used to present content from another source:</p>
-		<blockquote>
-			<p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported1.2 million members in the United States and close to 5 million globally.</p>
-		<footer>From WWF's website</footer>
-		</blockquote>
+		<p>To create an online identity for my mother, I chose to design a logo that can be used on her pots of honey and the other bee products she sells. It also has a permanent place on the website. In my eyes, good logos are always simple, so that they can be recognised and reproduced. Therefore the challenge was to convey the experience of a bee in the most minimalistic way as possible. The pointed shape of the logo, which creates movement, allowed me to even eliminate the wings of the bee while still keeping it recognisable through it’s stripes.</p>
+
+		<img class="img-fluid" src="img/bee.svg" alt="Bijendagboek logo">
+
+
+		<div class="page-header">
+			<h1>Nightsky</h1>
+		</div>
+
+		<img class="img-fluid" src="img/featured_nightsky.svg" alt="logo">
+
+		<p>For a friend of mine I designed a logo for his DJ-practices in the underground music scene of Amsterdam. I tried to design something that is attractive to his target group and that his guests can identify with. This turns out to have worked, and he is very proud of it. Ever since promotes my services to other people, so now and then I got some work out of it.</p>
+
+
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-xs-2  col-xs-offset-10">
-		<a href="project4.php"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
+		<a href="project4.php"><img class="img-fluid" src="img/arrow.svg" alt="Next"></a>
 	</div>
 </div>
 

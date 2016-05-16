@@ -1,44 +1,56 @@
 <?php
 	require('include/header.php');
-	require('include/nav.php');
 
 	//page content
 ?>
-<div class="row">
+
+<div class="row full-images">
 	<div class="col-lg-12">
-		<div class="jumbotron">
-			<h1>Project 2</h1>
-			<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-		</div>
+		<img class="img-fluid" src="img/featured_bitcare.jpg" alt="Poster Noord Hollands Jeugd Orkest, program march 2015">
 	</div>
 </div>
 
 <div class="row">
-	<div class="col-lg-12 textrow">
-		<a href="#"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
-		<div class="page-header">
-			<h1>Example Page Header</h1>
+	<div class="col-lg-12">
+		<div class="title">
+			<h1>Improving digital parent-childcare communication</h1>
 		</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
 
-		<h1>Blockquotes</h1>
-		<p>The blockquote element is used to present content from another source:</p>
-		<blockquote>
-			<p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported1.2 million members in the United States and close to 5 million globally.</p>
-		<footer>From WWF's website</footer>
-		</blockquote>
+
+<div class="row">
+	<div class="col-lg-12 textrow">
+
+		<h1>Project definition</h1>
+
+		<p>For my graduation project I was asked to design a tool to persuade parents to choose for a childcare center that had digital parent communication. My first idea was to make something like an AirBnB for daycare centres, but soon I learned that this was not a solution for todays society. It is already hard to trust somebody with your house, but it's much harder to trust a stranger with your child.</p>
+
+		<h1>Insights</h1>
+		<p>After quite a bit of research, interviews and literature review, I found that parents like to communicate their experiences with their friends. Not all their friends, but definitely their closest ones. The way parents share those memories is very diverse. It did however show that parents share this information to stay in contact with their friends and family. After all, nurturing a baby is hard and time-consuming, and for years the most important task of your and the child’s life.</p>
+
+		<p>Choosing a childcare is not only a rational decision for most parents. For an important part this decision is also very emotionally driven. Out of my stakeholder interviews I learned that open communication between parents and childcare is very appreciated. Parents like to be with their little loved one(s) and are very protective and careful with their baby. Knowing what and when the baby does something is not just nice to know, but very informative for parents in a lot of ways.</p>
+
+		<h1>Mental model</h1>
+		<p>To translate my insights and make them easier to understand, I made a mental model. For this mental model I choose to make a customer journey: a model that describes all the decisions that parents make and all the actions that parents take before choosing a the right childcare centre.</p>
+
+		<p>Solution</p>
+
+		<p>After the insight that parents want to share their child’s experiences, I connected the need of the childcare centres, the need of Bitcare and the need of the parents and reduced them to a few common desires. Parents like to see what their baby is doing (transparency), the childcare wants to make their activities visible because that’s how they can market themselves, and Bitcare wants to show upcoming parents the transparency and technology of Bitcare.</p>
+
+		<p>The solution was to make parents share there kids experiences at the childcare centre on their own social media networks, so that other parents can see and like the experiences of the children of their friends at the childcare centre and also want to bring their baby to that fun and transparant childcare that happens to be using this particular parent-communication technology. This concept was translated into a mobile app.</p>
+
+		<h1>Icons</h1>
+		<p>For the consistency of the application, I designed thin and beautiful icons based on a simple grid. The grid helped me to bring cohesion in the design os the icons and in speeding up my workflow. I am particularly proud of the family- and the playground icon. The most difficult icon to make, on the other hand, was the phone icon. It was hard to convey the experience of a phone with an icon. A symmetrical phone icon just looks wrong. The final asymmetrical phone icon has a clear feeling of a phone and displays similarities with other phone icons, while at the same time definitely being unique.</p>
+
+		<img class="img-fluid" src="img/icons.png" alt="icons of the designed application">
 
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-xs-2  col-xs-offset-10">
-		<a href="project3.php"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
+		<a href="project3.php"><img class="img-fluid" src="img/arrow.svg" alt="Next"></a>
 	</div>
 </div>
 
