@@ -16,7 +16,7 @@
 
 <div class="row">
 	<div class="col-lg-12 textrow">
-		<a href="http://www.bijendagboek.nl" target="_blank"><img class="img-fluid" src="img/featured_bijendagboek" alt="bijendagboek.nl screenshot homepage"></a>
+		<a href="http://www.bijendagboek.nl" target="_blank"><img class="img-fluid" src="img/featured_bijendagboek.png" alt="bijendagboek.nl screenshot homepage"></a>
 		<div class="page-header">
 			<h1>Simple blog</h1>
 		</div>

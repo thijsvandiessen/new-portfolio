@@ -3,8 +3,8 @@
 
 	//page content
 ?>
-
-
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="mashup.js"></script>
 
 <div class="row">
 	<div class="col-lg-12">
@@ -16,9 +16,22 @@
 
 <hr>
 
+	<div id="wrapper">
+		<h1>Gotcha!</h1>
+		<h2>Dit zijn de locaties van populaire instagram foto's. </br>Druk op de knop "volgende foto" om de volgende populaire instagram foto te bekijken!</h2>
+		<button value="volgende foto" onClick="history.go()">Volgende Foto</button>
+		<div id="content">
+			<div id="fotos"></div>
+			<div id="map_canvas"></div>
+		</div>
+	</div>
+
+
+<hr>
+
 <div class="row">
 	<div class="col-lg-12 textrow">
-		<a href="#"><img class="img-fluid" src="http://placehold.it/700x400" alt="logo"></a>
+		<a href="#"><!-- <img class="img-fluid" src="http://placehold.it/700x400" alt="logo"> --></a>
 		<div class="page-header">
 			<h1>Where are the populair Instagram pictures taken?</h1>
 		</div>

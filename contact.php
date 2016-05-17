@@ -15,9 +15,9 @@
 <div class="row imagebox">
 	<div class="col-lg-10 col-lg-offset-1">
 		<div class="col-lg-4 col-sm-4">
-			<img class="img-fluid" src="http://placehold.it/800x800" alt="logo">
-			<img class="img-fluid" src="http://placehold.it/800x400" alt="logo">
-			<img class="img-fluid" src="http://placehold.it/800x600" alt="logo">
+			<img class="img-fluid" src="http://placehold.it/800x800" alt="me">
+			<img class="img-fluid" src="http://placehold.it/800x400" alt="me">
+			<img class="img-fluid" src="http://placehold.it/800x600" alt="me">
 		</div>
 		<div class="col-lg-4 col-sm-4 col-xs-6">
 			<img class="img-fluid" src="img/orchestra.jpg" alt="playing in a orchestra with choir">
@@ -25,9 +25,9 @@
 			<img class="img-fluid" src="img/instruments.jpg" alt="Double bass and violin">
 		</div>
 		<div class="col-lg-4 col-sm-4 col-xs-6">
-			<img class="img-fluid" src="http://placehold.it/400x200" alt="logo">
-			<img class="img-fluid" src="http://placehold.it/400x300" alt="logo">
-			<img class="img-fluid" src="http://placehold.it/400x400" alt="logo">
+			<img class="img-fluid" src="http://placehold.it/400x200" alt="Sailing">
+			<img class="img-fluid" src="http://placehold.it/400x300" alt="Sailing">
+			<img class="img-fluid" src="http://placehold.it/400x400" alt="Sailing">
 		</div>
 	</div>
 </div>
