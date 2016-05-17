@@ -21,7 +21,7 @@
 		<link href="my.css" rel="stylesheet">
 </head>
 
-<body>
+<body onLoad="initialize()">
 	<div id="wrapper">
 
 <?php

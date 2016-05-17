@@ -214,19 +214,55 @@ hr {
     padding-bottom: 10px;
 }
 
-/*.col-sm-6 {
-    padding: 0px;
+/*------------------------------------------------------------------------------------------*/
+
+
+
+#mashupwrapper {
+    margin: 0px auto;
+    margin: 0px auto;
+    padding: 30px;
+    width: 1000px;
+
 }
 
-.col-lg-4 {
-    padding: 0px;
+#fotos {
+    float: left;
 }
 
-img {
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-}*/
+
+.picture {
+    display: block;
+    float: left;
+    width: 650px;
+
+}
+
+#fotos p {
+    float: left;
+    display: block;
+    margin: 20px;
+
+}
+
+.profile_picture {
+    display: block;
+    float: left;
+    
+}
+
+#map_canvas {
+    float: left;
+    display: block;
+    width: 650px;
+    height: 300px;
+    
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
