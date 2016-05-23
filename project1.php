@@ -33,13 +33,22 @@
 
 		<p>The last step for me is always to color correct my file for the medium I am designing for. Sometimes some lighting effects need to be adjusted for the particular medium, and for print you have to make sure that your CMYK colours pop. Furthermore, at my graduation internship at the company Bitcare, I learned the importance of reducing the file size of the files of my designs. For web or mobile applications you need to be on the sweet spot that balances an excellent image quality and a very small file size. This way, you can e-mail your originally gigabite files without losing the quality you designed for.</p>
 
+		<h1>Example</h1>
+
+		<p>For one programme of a student orchestra that was to take place during the summer, I had an idea to make someting jazzy and summery. I started with a simple quote and some summercolors and images. I used a quote I came up with myself,'The jazz of the sea is in the swing', which was a huge inspiration for the poster.</p>
+
 		<img class="img-fluid" src="img/featured_exercise.jpg" alt="Poster exercise">
+
+		<p>With these elements I formed the design for the background for the final poster that you can see above. I started with the letters of the quote in illustrator, found a cool font and played around with te position and the size of the letters. Next, I looked for some images that I could use, and for some curved swing brushes. I tried to combine these things using different approaches and compositions, each time choosing the one I liked best. In the end I blended images of splashes of ink, of a wall with a crack in it, and of a wave with these brushes and text, to come to this visualisation that in my eyes captured the feeling of the music perfectly.</p>
 
 	</div>
 </div>
 
-<div class="row">
-	<div class="col-xs-2  col-xs-offset-10">
+<div class="row projectnavigation">
+	<div class="col-xs-2  pull-left">
+		<a href="project5.php"><img class="img-fluid" src="img/arrow-left.svg" alt="Next"></a>
+	</div>
+	<div class="col-xs-2  pull-right">
 		<a href="project2.php"><img class="img-fluid" src="img/arrow.svg" alt="Next"></a>
 	</div>
 </div>

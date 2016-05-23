@@ -40,8 +40,13 @@
 	</div>
 </div>
 
-<div class="row">
-	<div class="col-xs-2  col-xs-offset-10">
+<div class="row projectnavigation">
+	<div class="col-xs-2  pull-left">
+		<a href="project2.php"><img class="img-fluid" src="img/arrow-left.svg" alt="Next"></a>
+	</div>
+
+
+	<div class="col-xs-2  pull-right">
 		<a href="project4.php"><img class="img-fluid" src="img/arrow.svg" alt="Next"></a>
 	</div>
 </div>

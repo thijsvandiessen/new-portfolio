@@ -1,7 +1,8 @@
 <?php
 $pages = array(
+	"index.php" => "My projects",
+	// "writing.php" => "My writing",
 	"contact.php" => "Get to know me",
-	"writing.php" => "My writing",
 	// "project1.php" => "<small>- Print</small>",
 	// "project2.php" => "<small>- Bitcare</small>",
 	// "project3.php" => "<small>- Branding</small>",

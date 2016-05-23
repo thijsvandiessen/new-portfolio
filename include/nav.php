@@ -1,7 +1,7 @@
 <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <li class="sidebar-brand">
-            <a href="index.php"><h3>Portfolio<h3></a>
+            <a href="index.php"><h3>My portfolio<h3></a>
         </li>
         <?php foreach ($pages as $filename => $pageName) { 
             if ($filename == $currentPage) { ?>
@@ -17,5 +17,5 @@
 
 	<!-- Page Content -->
 	<div id="page-content-wrapper">
-		<a href="#menu-toggle" class="btn" id="menu-toggle">menu<!-- <img src="img/hamburger.svg"> --></a>
+		<a href="#menu-toggle" class="btn" id="menu-toggle">menu</a>
 		<div class="container-fluid">
