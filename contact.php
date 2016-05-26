@@ -57,8 +57,8 @@
 		</div>
 		<p>I'm Thijs van Diessen, a recent design graduate looking for a big challenge.</p>
 
-		<p>My skillset consists of designing experiences on screen and print, but in a broader way than just the visual design.</p>
-		<p>I know the strengts and weaknesses of design processes and methods.</p>
+		<p>My skill set consists of designing experiences on screen and print, but in a broader way than just the visual design.</p>
+		<p>I know the strengths and weaknesses of design processes and methods.</p>
 
 		<p>Also I know how to:</p>
 
@@ -76,7 +76,7 @@
 
 		<p>When asking people around me, they tell me I'm marked by my creativity. I’m strong in the brainstorming process because of my associative thinking. I have a lot of experience with Photoshop, Illustrator and InDesign which I can use to visualise ideas. During my internship at the production company <a href="http://simpelmedia.tv" target="_blank">Simpel Media</a>, I also learned to work with Adobe After Effects, which I can now use to animate and create more depth in my visualisations.</p>
 
-		<p>With my knowledge of designing interactions and experiences can make simple prototypes with for example Adobe Experience Design, but also with Keynote and other prototyping apps. My aim is to be pixel perfect and work in a modular way, so that adjusting elements take as little time as possible. Furthermore, I can bring my designs to life with my knowledge of HTML, CSS, Javascript and PHP.</p>
+		<p>With my knowledge of designing interactions and experiences I can make simple prototypes with for example Adobe Experience Design, but also with Keynote and other prototyping apps. My aim is to be pixel perfect and work in a modular way, so that adjusting elements take as little time as possible. Furthermore, I can bring my designs to life with my knowledge of HTML, CSS, Javascript and PHP.</p>
 
 		<div class="page-header">
 			<h1>The future me</h1>
