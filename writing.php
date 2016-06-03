@@ -13,25 +13,21 @@
 <div class="row">
 	<div class="col-lg-12 textrow">
 		<div class="page-header">
-			<h1>Prototyping</h1>
-		</div>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-
-		<div class="page-header">
-			<h1>Creative techneques</h1>
-		</div>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-
-		<div class="page-header">
-			<h1>Going abroad</h1>
+			<h1>Simple successful products are hard to make</h1>
 		</div>
 
-		<ul>
-			<li>Abroad experience - learning in a different enviorment</li>
-			<li>Design is a universal language</li>
-			<li>Creativity - Diversity in teams</li>
-		</ul>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
+<p>We like simple apps and services that just work. We don’t ask questions about why something is working, we only ask questions when something is not working. And when something is not working, we assume it’s broken, even when it’s not. But why are simple successful products hard to make?</p>
+
+<p>Firstly, simple products are easy to reproduce. Because of this, as soon as you launch a simple product, chances are that everybody will steal your idea and start to make it better. For me, this is the definition of a simple product.<br>
+Although good products seem simple, the reality of getting the right amount of features to work and create a great user experience is very complex. When all the details are right and the product is delightful to use for everybody, I think you actually can’t speak about a simple product anymore. Someone or a team has been thinking deeply about all those details. Getting all the details right is very important, and a lot of work.</p>
+
+<p>Designing great user experiences that cover all the different use cases is all about getting your rationale right. Designing isn’t an exact science with one good answer, but with a lot of different answers that do not necessarily tell you if you're right or wrong.<br>
+There is a lot to learn from many different people, and users are a very important manner to find the best solution for a product. As a designer you have to listen to every stakeholder and weigh every pro against every con to make the best design choices possible.</p>
+
+<p>User-centered design is however not the only way to come to a solution. For example when conducting interviews for my graduation research with potential users, they didn’t tell me the best solution, because they can’t talk about a feature that doesn't exist. Only their user behaviour was valuable for me.<br>
+I learned during my internship at Bitcare that prototyping is a great tool to test and communicate ideas with all the different stakeholders. Although I think that methods like rapid prototyping focus too much on the user perspective, prototyping is a very productive and creative tool to explore new features, that can be beneficial to users as well as businesses.</p>
+
+<p>I like to work for a company that values details and that is only doing its very best to create creative and beautiful products. Details are very important in user experience design. Users will complain, ask for features and services, or leave you if you don’t comply. If you want products and services that are perfect in every detail, you need to design for targeted users. And if you want a product of a service that is successful, you need something that is simpel in the eyes of the users, while at the same time providing a lot of added value and thus being very complex behind the screens.</p>
 
 	</div>
 </div>
