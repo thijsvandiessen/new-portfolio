@@ -13,10 +13,10 @@
 <div class="row">
 	<div class="col-lg-12 textrow">
 		<div class="page-header">
-			<h1>Simple successful products are hard to make</h1>
+			<h1>Seemingly simple and successful products are hard to make</h1>
 		</div>
 
-<p>We like simple apps and services that just work. We don’t ask questions about why something is working, we only ask questions when something is not working. And when something is not working, we assume it’s broken, even when it’s not. But why are simple successful products hard to make?</p>
+<p>We like simple apps and services that just work. We don’t ask questions about why it's working, we only ask questions when something is not working. When something is not working, we assume it’s broken. But why are those products hard to make?</p>
 
 <p>Firstly, simple products are easy to reproduce. Because of this, as soon as you launch a simple product, chances are that everybody will steal your idea and start to make it better. For me, this is the definition of a simple product.<br>
 Although good products seem simple, the reality of getting the right amount of features to work and create a great user experience is very complex. When all the details are right and the product is delightful to use for everybody, I think you actually can’t speak about a simple product anymore. Someone or a team has been thinking deeply about all those details. Getting all the details right is very important, and a lot of work.</p>

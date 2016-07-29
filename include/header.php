@@ -5,12 +5,49 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- TODO title based on current page -->
+		<?php 
+			switch($currentPage = basename($_SERVER['REQUEST_URI'])) 
+			{ 
+			case 'index.php':
+				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
+				$description = 'I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.';
+				break; 
+			case 'project1.php': 
+				$title = 'My poster designs';
+				$description = 'My personal design process of making posters and other graphic designs.';
+				break;
+			case 'project2.php': 
+				$title = 'Improving digital parent-childcare communication';
+				$description = 'My graduation project';
+				break;
+			case 'project3.php': 
+				$title = 'Identity';
+				$description = "Logo's";
+				break;
+			case 'project4.php': 
+				$title = 'Typography';
+				$description = 'Phisical letters creating an experience';
+				break;
+			case 'project5.php': 
+				$title = 'Mashup';
+				$description = 'Combining the Instagram API with the Google maps API';
+				break;
+			case 'writing.php': 
+				$title = 'My writing';
+				$description = 'My ideas about design.';
+				break;
+			case 'contact.php': 
+				$title = 'Get to know me';
+				$description = 'Contact and about me.';
+				break;
+			default:
+				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
+				$description = 'I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.';
+			} 
+			echo '<title>'.$title.'</title>';
+			echo '<meta name="description" content="'.$description.'">';
+		?>
 
-
-		<title>Portfolio - Work of Thijs van Diessen - UX Designer</title>
-
-		<meta name="description" content="I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.">
 		<meta name="keywords" content="Portfolio, Profile, Experience, Design, prototyping">
 		<meta name="author" content="Thijs van Diessen">
 
@@ -53,7 +90,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div id="wrapper">
 
 <?php
-	require('include/array.php');
+	require('include/array.php'); 
 	require('include/nav.php');
 
 	//page content

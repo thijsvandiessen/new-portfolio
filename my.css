@@ -194,6 +194,7 @@ hr {
 /* cover */
 
 .cover {
+    background-image: url('img/bg1.jpg');
     margin-bottom: 15px;
 }
 
