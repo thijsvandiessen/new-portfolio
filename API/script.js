@@ -19,17 +19,18 @@ function loadInstagramEntries( ) {
 	$.ajax({
 		type: 'GET',
 		url: url,
-		success: displayPictures, 
+		success: displayInstaPictures, 
 		dataType: 'jsonp', 
 		cache: false
 	});
 
 //-------------------------------------------------------------------------------------
 
-function displayPictures ( oInstagramFeedback ) {
-	//console.log (oInstagramFeedback)
+function displayInstaPictures (oInstagramFeedback) {
+
+	console.log (oInstagramFeedback)
 	// laat 32 foto's zien of minder als er minder zijn
-	$('#fotos').html( "" );
+	$('#fotos').html("");
 	
 	var iNumUsedPics = 0;
 	var iMaxNumPictures = 2;
@@ -44,9 +45,9 @@ function displayPictures ( oInstagramFeedback ) {
 				+ '<p>' + oInstagramFeedback.data[i].user.username + '</p>';
 				
 				// informatie over de locatie
-				//console.log (oInstagramFeedback.data[i].location.latitude)
-				//console.log (oInstagramFeedback.data[i].location.longitude)
-				//console.log (oInstagramFeedback.data[i])
+				console.log (oInstagramFeedback.data[i].location.latitude)
+				console.log (oInstagramFeedback.data[i].location.longitude)
+				console.log (oInstagramFeedback.data[i])
 				
 //-------------------------------------------------------------------------------------
 
