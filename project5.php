@@ -22,7 +22,7 @@
 
 		<p>For a school assignment I combined two API's (Application Programming Interface's) to lean a bit more about Javascript and jQuery and the endless possibilities of web development.</p>
 
-		<center><a href="API/index.php"><button type="button" class="btn btn-default btn-lg">See my mashup working</button></a></center>
+		<center><a href="API/index.php"><button type="button" class="btn btn-default btn-lg">Currently not working...</button></a></center>
 
 		<p>The first step was to find two open API's that I could use. Twitter was an easy choice, but not very meaningful. Facebooks API was very closed, so difficult to make a mashup of. But then I found the Instagram API. There were lots of ways to get data from Instagram with a simple JSON request. Not all data was complete, for example not everyone is allowing Instagram to retrieve their GPS position, but it was good enough. I also found that Instagram had an algorithm that knows the most populair photos posted on Instagram. Connecting this to a twitter feed wouldn’t be very useful, but knowing where those photos where taken would maybe be very interesting for a travel agency. Therefore I decided to connect it with the API of Google Maps.</p>
 
