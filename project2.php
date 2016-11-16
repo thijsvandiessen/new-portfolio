@@ -13,7 +13,8 @@
 <div class="row">
 	<div class="col-lg-12">
 		<div class="title">
-			<h1>Improving digital parent-childcare communication</h1>
+			<h1>Changing a business model with UX design</h1>
+			<h3>Winter 2015-2016</h3>
 		</div>
 	</div>
 </div>
@@ -68,10 +69,10 @@
 
 <div class="row projectnavigation">
 	<div class="col-xs-2  pull-left">
-		<a href="project1.php"><img class="img-fluid" src="img/arrow-left.svg" alt="Next"></a>
+		<a href="project1.php"><img class="img-fluid" src="img/arrow-left.svg" alt="View previous project"></a>
 	</div>
 	<div class="col-xs-2  pull-right">
-		<a href="project3.php"><img class="img-fluid" src="img/arrow.svg" alt="Next"></a>
+		<a href="project3.php"><img class="img-fluid" src="img/arrow.svg" alt="View next project"></a>
 	</div>
 </div>
 

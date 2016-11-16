@@ -12,7 +12,8 @@
 <div class="row">
 	<div class="col-lg-12">
 		<div class="title">
-			<h1>Typography</h1>
+			<h1>My love for type</h1>
+			<h3>2014</h3>
 		</div>
 	</div>
 </div>
@@ -40,10 +41,10 @@
 
 <div class="row projectnavigation">
 	<div class="col-xs-2  pull-left">
-		<a href="project3.php"><img class="img-fluid" src="img/arrow-left.svg" alt="Next"></a>
+		<a href="project3.php"><img class="img-fluid" src="img/arrow-left.svg" alt="View previous project"></a>
 	</div>
 	<div class="col-xs-2  pull-right">
-		<a href="project5.php"><img class="img-fluid" src="img/arrow.svg" alt="Next"></a>
+		<a href="project5.php"><img class="img-fluid" src="img/arrow.svg" alt="View next project"></a>
 	</div>
 </div>
 

@@ -100,10 +100,11 @@ nav a:visited {
 	
 }
 
-#map_canvas {
+#map {
 	float: left;
 	display: block;
 	width: 650px;
 	height: 300px;
 	
 }
+
