@@ -19,7 +19,7 @@ function wikiSearchAPI() {
 			$("#title").empty();
 			$("#title").append("<p>Results for <strong>" + q + "</strong></p>");
 			$.each(data.query.search, function(i,item){
-				$("#title").append('<div><a href="http://en.wikipedia.org/wiki/' + encodeURIComponent(item.title) + '">' + item.title + '</a></div>');
+				$("#title").append('<div><a href="http://en.wikipedia.org/wiki/' + encodeURIComponent(item.title) + '">' + item.title + '</a> ' + item.snippet +'</p></div>');
 				
 				console.log(data.query.search);
 
