@@ -1,0 +1,415 @@
+/*Avenir substitute*/
+@import url(https://fonts.googleapis.com/css?family=Nunito:300); 
+
+body {
+	background-color: rgba(200, 200, 200, 0.2);
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: 'Avenir', 'Nunito','Helvetica','Arial' sans-serif;
+    font-weight: 100;
+
+}
+
+h1,h2,h3,h4,h5,h6,label {
+    font-family: 'Gill Sans', 'Arial' sans-serif;
+    font-weight: 100;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 15px;
+}
+
+.textrow {
+    float: none;
+    margin: 0px auto;
+    max-width: 700px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    float: none;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.full-images {
+    padding: 0px;
+}
+
+/* Project overview */
+
+.projects-overview a {
+     color: #333;
+     text-align: center;
+}
+
+.projects-overview h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.projects-overview a:hover {
+     opacity: 0.9;
+     color: #999;
+     text-decoration: none;
+}
+
+/* Menu */
+
+#menu-toggle {
+    position: fixed;
+    margin: 10px 10px auto;
+    z-index: 1000;
+
+}
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 200px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 200px;
+    width: 0;
+    height: 100%;
+    margin-left: -200px;
+    overflow-y: auto;
+    /*Background collor menu*/
+    background: rgba(0,0,0, 0.9);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 200px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -200px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-brand h3{
+    color: rgb(240,240,240);
+}
+
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 50px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.sidebar-nav .active {
+    color: rgb(255,255,255);
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: black;
+}
+
+.btn:hover {
+    color: #999999;
+}
+ 
+.btn:active, .btn.active {
+    box-shadow: none;
+}
+
+/* unvisited link */
+.btn:link:visited:hover:active, .btn.active {
+    background-color: rgb(255,255,255);
+    box-shadow: none;
+}
+
+.site-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 0.5;
+}
+
+.site-footer:hover {
+    opacity: 1;
+}
+
+/* cover */
+
+.cover {
+    background-image: url('img/bg1.jpg');
+    margin-bottom: 15px;
+}
+
+.cover h1 {
+    text-align: center;
+}
+
+/* imagebox */
+
+.imagebox {
+    margin-top: 20px;
+}
+
+.imagebox .col-sm-6, .col-lg-4 {
+    padding: 0;
+}
+
+.imagebox img{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+
+#mashupwrapper {
+    margin: 0px auto;
+    margin: 0px auto;
+    padding: 30px;
+    width: 1000px;
+
+}
+
+#fotos {
+    float: left;
+}
+
+
+.picture {
+    display: block;
+    float: left;
+    width: 650px;
+
+}
+
+#fotos p {
+    float: left;
+    display: block;
+    margin: 20px;
+
+}
+
+.profile_picture {
+    display: block;
+    float: left;
+    
+}
+
+#map_canvas {
+    float: left;
+    display: block;
+    width: 650px;
+    height: 300px;
+    
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+.projectnavigation .img-fluid {
+    margin-top: 40px;
+    opacity: 0.4;
+}
+
+.projectnavigation .img-fluid:hover {
+    opacity: 1;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+
+.btn-default {
+    background-color: rgb(220,220,200);
+    margin: 30px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+textarea  {
+    height: 200px !important; 
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .cover {
+        height: 300px;
+    }
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .cover {
+        height: 400px;
+    }
+
+    .cover h1{
+        margin-top: 190px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 200px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+
+    .title h1 {
+        font-size: 60px;
+    }
+
+    .cover {
+        height: 500px;
+    }
+
+    .cover h1{
+        margin-top: 230px;
+    }
+
+    .form-control {
+        width: 500px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .col-md-5 {
+        padding-left: 0px;
+    }
+
+    .title h1 {
+        font-size: 80px;
+    }
+
+    .cover {
+        height: 600px;
+    }
+
+    .cover h1{
+        margin-top: 280px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .title h1 {
+        font-size: 100px;
+    }
+    .cover {
+        height: 700px;
+    }
+
+    .cover h1{
+        margin-top: 330px;
+    }
+
+}
