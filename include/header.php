@@ -71,9 +71,8 @@
 
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 		
-		<link href="css/my.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
 </head>
-
 <body>
 
 <!-- Google Tag Manager -->
@@ -86,12 +85,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KV9S6Q');</script>
 <!-- End Google Tag Manager -->
 
-
 	<div id="wrapper">
 
-<?php
-	require('include/array.php'); 
-	require('include/nav.php');
-
-	//page content
-?>
+	<?php
+		require('include/array.php'); 
+		require('include/nav.php');
+		//page content
+	?>
