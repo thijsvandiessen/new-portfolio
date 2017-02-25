@@ -42,7 +42,7 @@
 				break;
 			default:
 				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
-				$description = 'I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.';
+				$description = 'I am Thijs van Diessen, a Front end developer and UX Designer based in the Netherlands. Specialised in prototyping and designing concepts and ideas.';
 			} 
 			echo '<title>'.$title.'</title>';
 			echo '<meta name="description" content="'.$description.'">';

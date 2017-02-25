@@ -21,7 +21,11 @@
 
 		<p>For a long time now I have an idea to make a timeline tool based on data from wikipedia. I wanted to place events in context and time, to make clear visualisations of events of historic time periods. Recently I discovered the Wikipedia media api and started playing with it. My plan is to combine this api with the DBpedia api to create a timeline with rich information that is easily editable.</p>
 
-		<center><a href="Wiki/wikipediaAPI.html"><button type="button" class="btn btn-default btn-lg">Get data superfast from Wikipedia</button></a></center>
+		<center>
+			<a href="Wiki/wikipediaAPI.html">
+				<button type="button" class="btn btn-default btn-lg">Wikipedia API</button>
+			</a>
+		</center>
 
 		<p>This is my first step of retrieving articles form Wikipedia.</p>
 
@@ -62,9 +66,5 @@
 	</div>
 </div>
 
-
-
-<?php
-	require('include/footer.php');
-?>
+<?php require('include/footer.php');?>
 

@@ -1,8 +1,5 @@
-<?php
-	require('include/header.php');
+<?php require('include/header.php');?>
 
-	//page content
-?>
 <div class="row full-images">
 	<div class="col-lg-12">
 		<img class="img-fluid" src="img/featured_text.jpg" alt="Poster Noord Hollands Jeugd Orkest, program march 2015">
@@ -17,7 +14,6 @@
 		</div>
 	</div>
 </div>
-
 
 <div class="row">
 	<div class="col-lg-12 textrow">
@@ -48,9 +44,4 @@
 	</div>
 </div>
 
-
-
-<?php
-	require('include/footer.php');
-?>
-
+<?php require('include/footer.php');?>

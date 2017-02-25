@@ -1,8 +1,4 @@
-<?php
-	require('include/header.php');
-
-	//page content
-?>
+<?php require('include/header.php');?>
 
 <div class="row full-images">
 	<div class="col-lg-12">
@@ -69,15 +65,16 @@
 
 <div class="row projectnavigation">
 	<div class="col-xs-2  pull-left">
-		<a href="project1.php"><img class="img-fluid" src="img/arrow-left.svg" alt="View previous project"></a>
+		<a href="project1.php">
+			<img class="img-fluid" src="img/arrow-left.svg" alt="View previous project">
+		</a>
 	</div>
 	<div class="col-xs-2  pull-right">
-		<a href="project3.php"><img class="img-fluid" src="img/arrow.svg" alt="View next project"></a>
+		<a href="project3.php">
+			<img class="img-fluid" src="img/arrow.svg" alt="View next project">
+		</a>
 	</div>
 </div>
 
 
-<?php
-	require('include/footer.php');
-?>
-
+<?php require('include/footer.php');?>

@@ -1,13 +1,15 @@
 'use strict';
 
 // Include gulp
-var gulp = require('gulp'),
-    eslint = require('gulp-eslint'),
-    sass   =  require('gulp-sass'),
-    concat  = require('gulp-concat'),
-    uglify  = require('gulp-uglify'),
-    rename  = require('gulp-rename'),
-    livereload = require('gulp-livereload'),
+var gulp            = require('gulp'),
+    eslint          = require('gulp-eslint'),
+    sass            = require('gulp-sass'),
+    concat          = require('gulp-concat'),
+    uglify          = require('gulp-uglify'),
+    rename          = require('gulp-rename'),
+    pump            = require('pump'),
+    livereload      = require('gulp-livereload'),
+    cleanCSS        = require('gulp-clean-css'),
     eslintThreshold = require('gulp-eslint-threshold');
 
 // Lint Task
@@ -34,18 +36,38 @@ gulp.task('sass', function() {
 gulp.task('scripts', function() {
     return gulp.src('/js/*.js')
         .pipe(concat('all.js'))
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('js'))
         .pipe(rename('all.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('/dist/js'));
+        .pipe(gulp.dest('js'));
+});
+
+// Compress 
+gulp.task('compress', function (cb) {
+  pump([
+        gulp.src('js/*.js'),
+        uglify(),
+        gulp.dest('js')
+    ],
+    cb
+  );
+});
+
+//minify css
+gulp.task('minify-css', function() {
+  return gulp.src('css/*.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('css'));
 });
 
 // Watch Files For Changes
 gulp.task('watch', function() {
     livereload.listen();
-    gulp.watch('/js/*.js', ['eslint', 'scripts']);
-    gulp.watch('/sass/*.scss', ['sass']);
+    gulp.watch('js/*.js', ['eslint', 'scripts']);
+    gulp.watch('sass/*.scss', ['sass']);
+    gulp.watch('css/main.css', ['minify-css']);
 });
 
 // Default Task
-gulp.task('default', ['eslint', 'sass', 'scripts', 'watch']);
+gulp.task('default', ['eslint', 'sass', 'scripts', 'minify-css', 'compress', 'watch']);
+

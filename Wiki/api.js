@@ -25,14 +25,10 @@ function wikiSearchAPI() {
 
 				getArticle(item.title)
 
-
-
 			}); // end of each
 		}); // end of f data
 	});
-
 }
-
 
 function getArticle(x) {
 
@@ -40,7 +36,6 @@ function getArticle(x) {
 
 	$.getJSON("http://en.wikipedia.org/w/api.php?action=query&prop=extracts&format=json&titles=" + x + "&exintro=", {
 		//json
-
 	},
 
 	function(data) {

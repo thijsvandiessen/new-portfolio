@@ -6,17 +6,14 @@
 
 <div class="row full-images">
 	<div class="col-lg-12">
-		<h1>
 			<?php 
-			
-				$name = 'BOOTSTRAP portfolio 1';
+				$name = 'BOOTSTRAP portfolio';
 				$email = $_POST['email'];
 				$message = wordwrap($_POST['message'], 70, "\r\n");
 				$from = "From: My portfolio <info@thijsvandiessen.nl>"; 
 				$to = 'thijsvandiessen@gmail.com'; 
 				$subject = 'Hi Thijs van Diessen';
 				$human = $_POST['human'];
-
 				$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
 					if ($_POST['submit'] && $human == '4') {
@@ -27,23 +24,22 @@
 							echo "<center><h3>Nope, not working, message not sent...</h3></center>"; 
 						}
 					}
-					
+
 					else if ($_POST['submit'] && $human != '4') {
 					echo "<center><h3>Wrong answer <span class='label label-warning'>2 + 2 = 4</span></h3></center>";
 				}
-			
 			?>
 	</div>
 </div>
 
 <div class="row imagebox">
-		<div class="col-lg-4 col-sm-4">
+		<div class="col-lg-4 col-sm-12">
 			<img class="img-fluid" src="img/profile.jpg" alt="My profile picture">
 		</div>
-		<div class="col-lg-4 col-sm-4 col-xs-6">
+		<div class="col-lg-4 col-sm-6">
 			<img class="img-fluid" src="img/playing.jpg" alt="Playing double bass">
 		</div>
-		<div class="col-lg-4 col-sm-4 col-xs-6">
+		<div class="col-lg-4 col-sm-6">
 			<img class="img-fluid" src="img/surfing.jpg" alt="Surfing">
 		</div>
 </div>
@@ -89,9 +85,7 @@
 		</div>
 
 		<div class="container">
-
 			<form role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-
 				<div class="form-group">
 						<label for="email">Email</label>
 						<input type="email" class="form-control" name="email" id="email" placeholder="Email" maxlength="80" required>
@@ -107,16 +101,8 @@
 					<button name="submit" type="submit" value="Submit" class="btn btn-default">Send your message</button>
 			</form>
 		</div>
-
-
-
-
 	</div>
 </div>
 
-
-<?php
-	require('include/footer.php');
-?>
-
+<?php require('include/footer.php');?>
 <script type="text/javascript" src="include/validation.js"></script>
