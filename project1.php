@@ -1,5 +1,4 @@
 <?php require('include/header.php'); ?>
-
 <div class="row full-images">
     <div class="col-lg-12">
         <img class="img-fluid" src="img/poster.jpg" alt="Poster Noord Hollands Jeugd Orkest, program march 2015">

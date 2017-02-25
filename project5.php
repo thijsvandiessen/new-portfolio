@@ -1,9 +1,4 @@
-<?php
-	require('include/header.php');
-
-	//page content
-?>
-
+<?php require('include/header.php');?>
 <div class="row">
 	<div class="col-lg-12">
 		<div class="title">
@@ -42,7 +37,7 @@
 
 		<p><strong>Update: </strong>The Instagram API recently changed, it's no longer possible to get the popular pictures from instagram in the sandbox mode. I fixed my API to show my latest Instagram picture with the location shown with Google maps.</p>
 
-		<center><a href="API/index.php"><button type="button" class="btn btn-default btn-lg">See my mashup working!</button></a></center>
+		<center><a href="API/index.php"><button type="button" class="btn btn-default btn-lg">Mashup</button></a></center>
 
 		<p>For a school assignment I combined two API's (Application Programming Interface's) to lean a bit more about Javascript and jQuery and the endless possibilities of web development.</p>
 

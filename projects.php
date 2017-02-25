@@ -1,5 +1,4 @@
 <?php require('include/header.php');?>
-
 <div class="row projects-overview">
 	<div class="col-md-7">
 		<a href="project1.php">

@@ -1,5 +1,4 @@
 <?php require('include/header.php');?>
-
 <div class="row full-images">
 	<div class="col-lg-12">
 		<img class="img-fluid" src="img/mockups.jpg" alt="Mockups of Bitcare for parents application">

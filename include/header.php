@@ -96,5 +96,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<?php
 		require('include/array.php'); 
 		require('include/nav.php');
-		//page content
 	?>
+	<div class="container-fluid">

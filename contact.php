@@ -1,6 +1,5 @@
 <?php require('include/header.php');?>
-
-<div class="row full-images">
+<div class="row full-images cover">
 	<div class="col-lg-12">
 		<?php 
 			$name = 'BOOTSTRAP portfolio';
@@ -13,14 +12,17 @@
 			$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 			if ($_POST['submit'] && $human == '4') {
 				if (mail($to, $subject, $body, $from)) {
-					echo "<center><h3>Thanks for your message, I will reply soon!</h3></center>";
+					echo "<h1>Thanks for your message, I will reply soon!</h1>";
 				}
 				else { 
-					echo "<center><h3>Nope, not working, message not sent...</h3></center>"; 
+					echo "<h1>Nope, not working, message not sent...</h1>"; 
 				}
 			}
 			else if ($_POST['submit'] && $human != '4') {
-				echo "<center><h3>Wrong answer <span class='label label-warning'>2 + 2 = 4</span></h3></center>";
+				echo "<h1>Wrong answer <span class='label label-warning'>2 + 2 = 4</span></h1>";
+			}
+			else {
+				echo "<h1>Contact me</h1>";
 			}
 		?>
 	</div>
@@ -28,9 +30,6 @@
 
 <div class="row">
 	<div class="col-lg-12 textrow">
-		<div class="page-header">
-			<h1>Contact me</h1>
-		</div>
 
 		<div class="container">
 			<form role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">

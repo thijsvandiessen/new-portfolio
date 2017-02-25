@@ -14,8 +14,8 @@
             ?>
     </ul>
 </div>
-
 	<!-- Page Content -->
 	<div id="page-content-wrapper">
-		<a href="#menu-toggle" class="btn" id="menu-toggle">menu</a>
-		<div class="container-fluid">
+		<a href="#menu-toggle" class="btn" id="menu-toggle">
+            menu
+        </a>
