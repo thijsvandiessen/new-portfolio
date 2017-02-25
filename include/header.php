@@ -12,6 +12,10 @@
 				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
 				$description = 'I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.';
 				break; 
+			case 'projects.php':
+				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
+				$description = 'I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.';
+				break; 
 			case 'project1.php': 
 				$title = 'My poster designs';
 				$description = 'My personal design process of making posters and other graphic designs.';
@@ -36,9 +40,13 @@
 				$title = 'My writing';
 				$description = 'My ideas about design.';
 				break;
-			case 'contact.php': 
+			case 'about.php': 
 				$title = 'Get to know me';
-				$description = 'Contact and about me.';
+				$description = 'About me.';
+				break;
+			case 'contact.php': 
+				$title = 'Contact me';
+				$description = 'Contact me.';
 				break;
 			default:
 				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
