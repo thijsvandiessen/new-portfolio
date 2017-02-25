@@ -11,11 +11,8 @@ $projects = array(
 	"project3.php" => "Branding",
 	"project4.php" => "Typography",
 	"project5.php" => "Development",
-
-
 );
 
 $currentPage = basename($_SERVER['REQUEST_URI']) ;
 
 ?>
-

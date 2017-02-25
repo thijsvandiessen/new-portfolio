@@ -2,12 +2,12 @@
 
 // Include gulp
 var gulp = require('gulp'),
-    // Include Our Plugins
     eslint = require('gulp-eslint'),
     sass   =  require('gulp-sass'),
     concat  = require('gulp-concat'),
     uglify  = require('gulp-uglify'),
     rename  = require('gulp-rename'),
+    livereload = require('gulp-livereload'),
     eslintThreshold = require('gulp-eslint-threshold');
 
 // Lint Task
@@ -26,7 +26,8 @@ gulp.task('eslint', function() {
 gulp.task('sass', function() {
     return gulp.src('sass/*.scss')
         .pipe(sass())
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('css'))
+        .pipe(livereload());
 });
 
 // Concatenate & Minify JS
@@ -41,6 +42,7 @@ gulp.task('scripts', function() {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
+    livereload.listen();
     gulp.watch('/js/*.js', ['eslint', 'scripts']);
     gulp.watch('/sass/*.scss', ['sass']);
 });
