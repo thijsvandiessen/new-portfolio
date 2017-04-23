@@ -1,6 +1,6 @@
 <?php require('include/header.php');?>
-<div class="row full-images cover">
-	<div class="col-lg-12">
+<div class="cover">
+	<div class="cover-body">
 		<?php 
 			$name = 'BOOTSTRAP portfolio';
 			$email = $_POST['email'];

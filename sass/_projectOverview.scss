@@ -1,0 +1,19 @@
+// projectOverview page
+
+.projects-overview {
+	a {
+		color: #333;
+     	text-align: center;
+	}
+
+	h2 {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	a:hover {
+	     opacity: 0.9;
+	     color: #999;
+	     text-decoration: none;
+	}
+}

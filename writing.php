@@ -1,6 +1,6 @@
 <?php require('include/header.php');?>
-<div class="row full-images cover">
-	<div class="col-lg-12">
+<div class="cover">
+	<div class="cover-body">
 		<h1>My blog</h1>
 	</div>
 </div>
@@ -11,7 +11,7 @@
 			<h1>I’m currently working at Copernica</h1>
 		</div>
 
-		<p>Yes I work at a company that enables people to send a ginormous amount of email every day. My task is mostly to crate content, design and develop landing pages that are useful and informative, not only for leads but also for customers that use our software. And it is kind of fun when you have powerful marketing automation software at your disposal.</p>
+		<p>I work at a company that enables people to send a ginormous amount of email every day. My task is mostly to create content, design and develop landing pages that are useful and informative, not only for leads but also for customers that use our software. And it is kind of fun when you have powerful marketing automation software at your disposal.</p>
 
 		<p>Sending e-mail is not that hard, the only problem is that people want that their email is read. I learned at Copernica that email can be signed by domain keys with a technology that is called DKIM. In short, DKIM provides a way of validating a domain identity that is associated with a message throughout cryptographic authentication. Also in combination with properly setup SPF records  it is possible to send a bulk mailing that is not delivered in any spam box. Although this isn’t the full story, I leant that these standards are a powerful mechanisms to fight spam.</p>
 

@@ -78,6 +78,8 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<link href="css/main.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/all.min.js"></script>
 </head>
 <body>
 
@@ -94,7 +96,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div id="wrapper">
 
 	<?php
-		require('include/array.php'); 
 		require('include/nav.php');
 	?>
 	<div class="container-fluid">
