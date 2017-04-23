@@ -21,25 +21,28 @@
 		<p>Also I know how to:</p>
 		<ul>
 			<li>Pull, add, commit and push</li>
-			<li>Work with SVN or Git</li>
+			<li>$ make clean</li>
 			<li>Work with MacOS, Ubuntu or Windows 10</li>
 			<li>Gruntify or Gulpify my projects</li>
 			<li>Initialise and compile projects form the CLI</li>
-			<li>Design experiences in Sketch</li>
-			<li>Use Adobe Photoshop</li>
-			<li>Use Adobe Illustrator</li>
-			<li>Use Adobe Indesign</li>
-			<li>Use Adobe After Effects</li>
+			<li>Design prototypes in Sketch</li>
+			<li>Photoshop experiences</li>
+			<li>Craft icons in Adobe Illustrator</li>
+			<li>Create interactive books/presenations in Adobe Indesign</li>
+			<li>Photoshop movies in Adobe After Effects</li>
 			<li>Prototype with different kinds of software</li>
 			<li>Create websites with HTML, PHP, javascript and CSS</li>
-			<li>Work with the principles of IOS development</li>
 		</ul>
-		<p>When asking people around me, they tell me I'm marked by my creativity. I’m strong in the brainstorming process because of my associative thinking. I have a lot of experience with Photoshop, Illustrator and InDesign which I can use to visualise ideas. During my internship at the production company <a href="http://simpelmedia.tv" target="_blank">Simpel Media</a>, I also learned to work with Adobe After Effects, which I can now use to animate and create more depth in my visualisations.</p>
-		<p>With my knowledge of designing interactions and experiences I can make simple prototypes with for example Adobe Experience Design, but also with Keynote and other prototyping apps. My aim is to be pixel perfect and work in a modular way, so that adjusting elements take as little time as possible. Furthermore, I can bring my designs to life with my knowledge of HTML, CSS, Javascript and PHP.</p>
+		<p>My skill set consists of front end developing, designing and creating engaging user experiences by the means of usability research, a creative process of creating ideas and concepts and formulating a design strategy.</p>
+
+		<p>When asking people around me, they tell me I'm marked by my creativity. I’m strong in the brainstorming process because of my associative thinking. With my experience in Adobe software I visualise ideas fast.</p>
+
+		<p>With my knowledge of designing interactions and experiences I can make prototypes with for example Sketch. My aim is to be pixel perfect and work in a modular way, so that adjusting elements take as little time as possible. Furthermore, I can bring my designs to life with the help of task runners like Gulp or Grunt, commit my changes in the CLI with SVN or Git. And develop awesome experiences with JavaScript and PHP.</p>
+
 		<div class="page-header">
 			<h1>The future me</h1>
 		</div>
-		<p>In the future I want to be doing what I love. In my professional field this means designing awesome user experiences. With my creativity I like to help people, which is why I wanted to become a designer. In my job I want to help people communicate their ideas in a creative way, while being optimally efficient and impactful. In the meanwhile I'm always exploring new ideas in order to come to new creative insights. Every day I'm doing nothing less than my very best.</p>
+		<p>I have a lot of ambition and want to design and develop awesome user experiences. With my creativity I like to help people, which is why I wanted to become a developer and designer in the first place. In the meanwhile I want to continue exploring and learning in order to come to new creative insights. Every day I'm doing nothing less than my very best.</p>
 	</div>
 </div>
 
