@@ -49,15 +49,20 @@
 
 		<p>For me, this was a fun experiment of how I can fix problems using programming. Although I know Javascript and PHP and I like programming, I am not a programmer. Instead I like to use this knowledge to design and invent new experiences. Programming is fun, and I’m sure I’ll further develop my skills in the future.</p>
 
-	</div>
-</div>
+		<div class="row projectnavigation">
+			<div class="col-2 pull-left">
+				<a href="project4.php">
+					<img class="img-fluid" src="img/arrow-left.svg" alt="View previous project">
+				</a>
+			</div>
+			<div class="col-8"></div>
+			<div class="col-2 pull-right">
+				<a href="project1.php">
+					<img class="img-fluid" src="img/arrow.svg" alt="View next project">
+				</a>
+			</div>
+		</div>
 
-<div class="row projectnavigation">
-	<div class="col-xs-2  pull-left">
-		<a href="project4.php"><img class="img-fluid" src="img/arrow-left.svg" alt="View previous project"></a>
-	</div>
-	<div class="col-xs-2  pull-right">
-		<a href="project1.php"><img class="img-fluid" src="img/arrow.svg" alt="View next project"></a>
 	</div>
 </div>
 

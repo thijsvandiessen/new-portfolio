@@ -19,7 +19,7 @@
 				}
 			}
 			else if ($_POST['submit'] && $human != '4') {
-				echo "<h1>Wrong answer <span class='label label-warning'>2 + 2 = 4</span></h1>";
+				echo "<h1>Wrong answer</h1>";
 			}
 			else {
 				echo "<h1>Contact me</h1>";

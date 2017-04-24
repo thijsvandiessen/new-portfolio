@@ -6,7 +6,7 @@
 </div>
 
 <div class="row">
-    <div class="col-lg-12">
+    <div class="col-12">
         <div class="title">
             <h1>My graphic design experience</h1>
             <h3>2015</h3>
@@ -15,7 +15,7 @@
 </div>
 
 <div class="row">
-    <div class="col-lg-12 textrow">
+    <div class="col-12 textrow">
 
         <p>Ever since I was a little boy, I loved music. During my student life I performed in different orchestras, played many pieces and performed in many concerts. Because of this passion of mine and the experience I gained during my studies, I got drawn to the marketing of those concerts. In the youth orchestra the idea emerged of making a different poster every year, made by one or two members of the orchestra. In my student orchestra this was already mandatory, and a whole committee worked together to design the banners, posters, program books and the online marketing involved with the promotion of the orchestra’s concerts.</p>
 
@@ -35,20 +35,22 @@
         <img class="img-fluid" src="img/featured_exercise.jpg" alt="Poster exercise">
 
         <p>With these elements I formed the design for the background for the final poster that you can see above. I started with the letters of the quote in illustrator, found a cool font and played around with te position and the size of the letters. Next, I looked for some images that I could use, and for some curved swing brushes. I tried to combine these things using different approaches and compositions, each time choosing the one I liked best. In the end I blended images of splashes of ink, of a wall with a crack in it, and of a wave with these brushes and text, to come to this visualisation that in my eyes captured the feeling of the music perfectly.</p>
+
+        <div class="row projectnavigation">
+            <div class="col-2 pull-left">
+                <a href="project5.php">
+                    <img class="img-fluid" src="img/arrow-left.svg" alt="View previous project">
+                </a>
+            </div>
+            <div class="col-8"></div>
+            <div class="col-2 pull-right">
+                <a href="project2.php">
+                    <img class="img-fluid" src="img/arrow.svg" alt="View next project">
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="row projectnavigation">
-    <div class="col-xs-2  pull-left">
-        <a href="project5.php">
-            <img class="img-fluid" src="img/arrow-left.svg" alt="View previous project">
-        </a>
-    </div>
-    <div class="col-xs-2  pull-right">
-        <a href="project2.php">
-            <img class="img-fluid" src="img/arrow.svg" alt="View next project">
-        </a>
-    </div>
-</div>
 
 <?php require('include/footer.php');?>
