@@ -1,12 +1,12 @@
 <?php require('include/header.php');?>
 <div class="cover">
 	<div class="cover-body">
-		<?php 
+		<?php
 			$name = 'BOOTSTRAP portfolio';
 			$email = $_POST['email'];
 			$message = wordwrap($_POST['message'], 70, "\r\n");
-			$from = "From: My portfolio <info@thijsvandiessen.nl>"; 
-			$to = 'thijsvandiessen@gmail.com'; 
+			$from = "From: My portfolio <info@thijsvandiessen.nl>";
+			$to = 'thijsvandiessen@gmail.com';
 			$subject = 'Hi Thijs van Diessen';
 			$human = $_POST['human'];
 			$body = "From: $name\n E-Mail: $email\n Message:\n $message";
@@ -14,8 +14,8 @@
 				if (mail($to, $subject, $body, $from)) {
 					echo "<h1>Thanks for your message, I will reply soon!</h1>";
 				}
-				else { 
-					echo "<h1>Nope, not working, message not sent...</h1>"; 
+				else {
+					echo "<h1>Nope, not working, message not sent...</h1>";
 				}
 			}
 			else if ($_POST['submit'] && $human != '4') {
@@ -50,6 +50,5 @@
 		</div>
 	</div>
 </div>
-
-<?php require('include/footer.php');?>
 <script type="text/javascript" src="include/validation.js"></script>
+<?php require('include/footer.php');?>

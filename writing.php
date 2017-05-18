@@ -13,7 +13,7 @@
 
 		<p>I work at a company that enables people to send a ginormous amount of email every day. My task is mostly to create content, design and develop landing pages that are useful and informative, not only for leads but also for customers that use our software. And it is kind of fun when you have powerful marketing automation software at your disposal.</p>
 
-		<p>Sending e-mail is not that hard, the only problem is that people want that their email is read. I learned at Copernica that email can be signed by domain keys with a technology that is called DKIM. In short, DKIM provides a way of validating a domain identity that is associated with a message throughout cryptographic authentication. Also in combination with properly setup SPF records  it is possible to send a bulk mailing that is not delivered in any spam box. Although this isn’t the full story, I leant that these standards are a powerful mechanisms to fight spam.</p>
+		<p>Sending e-mail is not that hard, the only problem is that people want that their email is read. I learned at Copernica that email can be signed by domain keys with a technology that is called DKIM. In short, DKIM provides a way of validating a domain identity that is associated with a message throughout cryptographic authentication. Also in combination with properly setup SPF records it is possible to send a bulk mailing that is not delivered in any spam box. Although this isn’t the full story, I leant that these standards are a powerful mechanisms to fight spam. DMARC, is combining these technologies and comes with a handy p=reject feature. If this is enabled you can block all email sent by malicious people.</p>
 
 		<p>Although I find the technology fascinating, the marketers are only interested in conversion. Crafting the perfect campaign with powerful personalisation and all the analytics. Yes it’s ‘<a href="https://www.emailonacid.com/blog/article/email-development/email-development-best-practices-2017" target="_blank">fun</a>’ to develop emails with lots of personalisation and follow up actions, but that is not that hard for me anymore. Yes companies need to communicate throughout email with their customers, notify when there is something left in their shopping cart, when their product is expected to arrive, when their subscriptions are ending, offering the right services on time. This is not rocket science, only a little bit of work and a lot of fun to combine human limitations with the logic of computers.</p>
 
@@ -41,4 +41,3 @@
 </div>
 
 <?php require('include/footer.php');?>
-
