@@ -45,7 +45,7 @@
 					<label for="human">Are you human? what is 2 + 2 =</label>
 					<input name="human" class="form-control" id="human" placeholder="2 + 2 =" number>
 				</div>
-				<button name="submit" type="submit" value="Submit" class="btn btn-default">Sent me an email</button>
+				<button name="submit" type="submit" value="Submit" class="btn btn-default">Send me an email</button>
 			</form>
 		</div>
 	</div>
