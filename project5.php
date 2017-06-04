@@ -1,14 +1,22 @@
+<<<<<<< HEAD
 <?php
 	require('include/header.php');
 
 	//page content
 ?>
 
+=======
+<?php require('include/header.php');?>
+>>>>>>> refs/remotes/origin/master
 <div class="row">
 	<div class="col-lg-12">
 		<div class="title">
 			<h1>I like to code</h1>
+<<<<<<< HEAD
 			<h3>2013</h3>
+=======
+			<h3>2016</h3>
+>>>>>>> refs/remotes/origin/master
 		</div>
 	</div>
 </div>
@@ -21,7 +29,15 @@
 
 		<p>For a long time now I have an idea to make a timeline tool based on data from wikipedia. I wanted to place events in context and time, to make clear visualisations of events of historic time periods. Recently I discovered the Wikipedia media api and started playing with it. My plan is to combine this api with the DBpedia api to create a timeline with rich information that is easily editable.</p>
 
+<<<<<<< HEAD
 		<center><a href="Wiki/wikipediaAPI.html"><button type="button" class="btn btn-default btn-lg">Get data superfast from Wikipedia</button></a></center>
+=======
+		<center>
+			<a href="Wiki/wikipediaAPI.html">
+				<button type="button" class="btn btn-default btn-lg">Wikipedia API</button>
+			</a>
+		</center>
+>>>>>>> refs/remotes/origin/master
 
 		<p>This is my first step of retrieving articles form Wikipedia.</p>
 
@@ -38,7 +54,11 @@
 
 		<p><strong>Update: </strong>The Instagram API recently changed, it's no longer possible to get the popular pictures from instagram in the sandbox mode. I fixed my API to show my latest Instagram picture with the location shown with Google maps.</p>
 
+<<<<<<< HEAD
 		<center><a href="API/index.php"><button type="button" class="btn btn-default btn-lg">See my mashup working!</button></a></center>
+=======
+		<center><a href="API/index.php"><button type="button" class="btn btn-default btn-lg">Mashup</button></a></center>
+>>>>>>> refs/remotes/origin/master
 
 		<p>For a school assignment I combined two API's (Application Programming Interface's) to lean a bit more about Javascript and jQuery and the endless possibilities of web development.</p>
 
@@ -50,6 +70,7 @@
 
 		<p>For me, this was a fun experiment of how I can fix problems using programming. Although I know Javascript and PHP and I like programming, I am not a programmer. Instead I like to use this knowledge to design and invent new experiences. Programming is fun, and I’m sure I’ll further develop my skills in the future.</p>
 
+<<<<<<< HEAD
 	</div>
 </div>
 
@@ -67,4 +88,24 @@
 <?php
 	require('include/footer.php');
 ?>
+=======
+		<div class="row projectnavigation">
+			<div class="col-2 pull-left">
+				<a href="project4.php">
+					<img class="img-fluid" src="img/arrow-left.svg" alt="View previous project">
+				</a>
+			</div>
+			<div class="col-8"></div>
+			<div class="col-2 pull-right">
+				<a href="project1.php">
+					<img class="img-fluid" src="img/arrow.svg" alt="View next project">
+				</a>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<?php require('include/footer.php');?>
+>>>>>>> refs/remotes/origin/master
 

@@ -25,6 +25,7 @@ function wikiSearchAPI() {
 
 				getArticle(item.title)
 
+<<<<<<< HEAD
 
 
 			}); // end of each
@@ -34,13 +35,23 @@ function wikiSearchAPI() {
 }
 
 
+=======
+			}); // end of each
+		}); // end of f data
+	});
+}
+
+>>>>>>> refs/remotes/origin/master
 function getArticle(x) {
 
 	console.log(x);
 
 	$.getJSON("http://en.wikipedia.org/w/api.php?action=query&prop=extracts&format=json&titles=" + x + "&exintro=", {
 		//json
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 	},
 
 	function(data) {

@@ -12,6 +12,13 @@
 				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
 				$description = 'I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.';
 				break; 
+<<<<<<< HEAD
+=======
+			case 'projects.php':
+				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
+				$description = 'I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.';
+				break; 
+>>>>>>> refs/remotes/origin/master
 			case 'project1.php': 
 				$title = 'My poster designs';
 				$description = 'My personal design process of making posters and other graphic designs.';
@@ -36,6 +43,7 @@
 				$title = 'My writing';
 				$description = 'My ideas about design.';
 				break;
+<<<<<<< HEAD
 			case 'contact.php': 
 				$title = 'Get to know me';
 				$description = 'Contact and about me.';
@@ -43,6 +51,19 @@
 			default:
 				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
 				$description = 'I am Thijs van Diessen, an UX Designer based in the Netherlands. Just graduated, specialised in prototyping and designing concepts and ideas.';
+=======
+			case 'about.php': 
+				$title = 'Get to know me';
+				$description = 'About me.';
+				break;
+			case 'contact.php': 
+				$title = 'Contact me';
+				$description = 'Contact me.';
+				break;
+			default:
+				$title = 'Portfolio - Work of Thijs van Diessen - UX Designer';
+				$description = 'I am Thijs van Diessen, a Front end developer and UX Designer based in the Netherlands. Specialised in prototyping and designing concepts and ideas.';
+>>>>>>> refs/remotes/origin/master
 			} 
 			echo '<title>'.$title.'</title>';
 			echo '<meta name="description" content="'.$description.'">';
@@ -69,11 +90,18 @@
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 
+<<<<<<< HEAD
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 		
 		<link href="my.css" rel="stylesheet">
 </head>
 
+=======
+		<link href="css/main.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/all.min.js"></script>
+</head>
+>>>>>>> refs/remotes/origin/master
 <body>
 
 <!-- Google Tag Manager -->
@@ -86,6 +114,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KV9S6Q');</script>
 <!-- End Google Tag Manager -->
 
+<<<<<<< HEAD
 
 	<div id="wrapper">
 
@@ -95,3 +124,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	//page content
 ?>
+=======
+	<div id="wrapper">
+
+	<?php
+		require('include/nav.php');
+	?>
+	<div class="container-fluid">
+>>>>>>> refs/remotes/origin/master

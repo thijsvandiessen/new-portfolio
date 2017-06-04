@@ -1,0 +1,172 @@
+
+@import 'bootstrap/bootstrap';
+
+// custom scss
+@import 'typography';
+@import 'base';
+@import 'sidebar';
+@import 'homepage';
+@import 'projectOverview';
+@import 'forms';
+
+.site-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 0.5;
+}
+
+.site-footer:hover {
+    opacity: 1;
+}
+
+/* imagebox */
+
+.imagebox {
+    padding: 0 !important;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+#mashupwrapper {
+    margin: 0px auto;
+    margin: 0px auto;
+    padding: 30px;
+    width: 1000px;
+
+}
+
+#fotos {
+    float: left;
+}
+
+
+.picture {
+    display: block;
+    float: left;
+    width: 650px;
+
+}
+
+#fotos p {
+    float: left;
+    display: block;
+    margin: 20px;
+
+}
+
+.profile_picture {
+    display: block;
+    float: left;
+
+}
+
+#map_canvas {
+    float: left;
+    display: block;
+    width: 650px;
+    height: 300px;
+
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+.projectnavigation .img-fluid {
+    margin-top: 40px;
+    opacity: 0.4;
+}
+
+.projectnavigation .img-fluid:hover {
+    opacity: 1;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+
+.btn-default {
+    background-color: rgb(220,220,200);
+
+    margin: 1rem 0;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+textarea  {
+    height: 200px !important;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .title h1 {
+        font-size: 100px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .col-md-5 {
+        padding-left: 0px;
+    }
+
+    .title h1 {
+        font-size: 80px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 200px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+
+    .title h1 {
+        font-size: 60px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+    .title h1 {
+        font-size: 50px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+    .btn-default {
+        white-space: pre-wrap !important;
+    }
+
+    .cover {
+        padding: 100px 10px;
+    }
+}

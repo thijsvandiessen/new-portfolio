@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 <?php
 	require('include/header.php');
 
 	//page content
 ?>
 
+=======
+<?php require('include/header.php');?>
+>>>>>>> refs/remotes/origin/master
 <div class="row full-images">
 	<div class="col-lg-12">
 		<img class="img-fluid" src="img/mockups.jpg" alt="Mockups of Bitcare for parents application">
@@ -64,6 +68,7 @@
 
 		<img class="img-fluid" src="img/icons.png" alt="icons of the designed application">
 
+<<<<<<< HEAD
 	</div>
 </div>
 
@@ -81,3 +86,25 @@
 	require('include/footer.php');
 ?>
 
+=======
+		<div class="row projectnavigation">
+			<div class="col-2 pull-left">
+				<a href="project1.php">
+					<img class="img-fluid" src="img/arrow-left.svg" alt="View previous project">
+				</a>
+			</div>
+			<div class="col-8"></div>
+			<div class="col-2 pull-right">
+				<a href="project3.php">
+					<img class="img-fluid" src="img/arrow.svg" alt="View next project">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<?php require('include/footer.php');?>
+>>>>>>> refs/remotes/origin/master

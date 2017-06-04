@@ -1,0 +1,60 @@
+// base styles
+
+body {
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 15px;
+}
+
+.textrow {
+    float: none;
+    margin: 0px auto;
+    max-width: 700px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    float: none;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.full-images {
+    padding: 0px; 
+}
+
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+
+    &:hover {color: #999999;}
+    &:active, &.active, &:focus, &.focus{box-shadow: none;}
+}
+
+/* unvisited link */
+.btn:link:visited:hover:active, .btn.active {
+    background-color: rgb(255,255,255);
+    box-shadow: none;
+}

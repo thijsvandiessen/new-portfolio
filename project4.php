@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 <?php
 	require('include/header.php');
 
 	//page content
 ?>
+=======
+<?php require('include/header.php');?>
+>>>>>>> refs/remotes/origin/master
 <div class="row full-images">
 	<div class="col-lg-12">
 		<img class="img-fluid" src="img/featured_text.jpg" alt="Poster Noord Hollands Jeugd Orkest, program march 2015">
@@ -18,9 +22,14 @@
 	</div>
 </div>
 
+<<<<<<< HEAD
 
 <div class="row">
 	<div class="col-lg-12 textrow">
+=======
+<div class="row">
+	<div class="col-12 textrow">
+>>>>>>> refs/remotes/origin/master
 		
 		<p>Already a long time ago I got excited about typography. For me typography is not only about the legibility of the text, but also about the hidden message and the underlying meaning of a font, which should communicate and enforce what you want to express with your design.</p>
 
@@ -36,6 +45,7 @@
 
 		<p>I have a lot more to say and a lot more to learn about a lot of typefaces, but these three are special to me.</p>
 
+<<<<<<< HEAD
 	</div>
 </div>
 
@@ -54,3 +64,23 @@
 	require('include/footer.php');
 ?>
 
+=======
+		<div class="row projectnavigation">
+			<div class="col-2 pull-left">
+				<a href="project3.php">
+					<img class="img-fluid" src="img/arrow-left.svg" alt="View previous project">
+				</a>
+			</div>
+			<div class="col-8"></div>
+			<div class="col-2 pull-right">
+				<a href="project5.php">
+					<img class="img-fluid" src="img/arrow.svg" alt="View next project">
+				</a>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<?php require('include/footer.php');?>
+>>>>>>> refs/remotes/origin/master
